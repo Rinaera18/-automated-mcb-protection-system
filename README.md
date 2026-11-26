@@ -3,7 +3,8 @@
 > **Project Status:** `Rev A — Schematic Proof-of-Concept` *(Schematic-level architecture; PCB layout and DFM cleanup pending for Rev B)*
 
 ## Overview
-A galvanically isolated **Automated Miniature Circuit Breaker (MCB) controller** designed for fast overcurrent protection, automated load testing, and remote shunt-trip actuation. Built around an **ACS758 Hall-effect current sensor**, an **LM393 hardware window comparator**, and an **ESP32-WROOM-32** supervisory controller, this architecture mirrors the isolated current-sensing and fail-safe trip principles used in electric vehicle (EV) battery protection systems.
+## Overview
+A galvanically isolated **Automated Miniature Circuit Breaker (MCB) controller** designed for fast overcurrent protection, automated load testing, and remote shunt-trip actuation on AC mains lines. Built around an **ACS758 Hall-effect current sensor**, an **LM393 hardware window comparator**, and an **ESP32-WROOM-32** supervisory controller, the system combines sub-millisecond analog fault detection with isolated microcontroller monitoring and switching.
 
 ## Schematic
 ![Automated MCB Schematic](automated-mcb-schematic.png)
